@@ -34,7 +34,7 @@ body{
     font-family:"Lucida Sans Unicode","Lucida Grande", sans-serif;
 }
 .container {
-  margin: 0 auto;
+  margin: 10px auto;
   width: 940px;
 }
 header{
@@ -69,6 +69,8 @@ header{
 }
 .busca input[type=search] {
 width: 170px;
+border-radius: 10px;
+
 }
 .destaque{
   margin-top: 10px;
@@ -81,12 +83,8 @@ width: 170px;
   margin: :10px 0;
   padding: :10px;
   width: 445px;
-}
-.novidades{
-  float:left;
-}
-.mais-vendidos{
-  float: right;
+  border-radius: 4px;
+  box-shadow: 1px 1px 4px #999;
 }
 .painel li{
   display:inline-block;
@@ -101,6 +99,7 @@ width: 170px;
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 10px;
+  text-shadow: 3px 3px 2px rgba(255,255,255,0.8);
 }
 .painel a{
   color: #333;
@@ -109,18 +108,21 @@ width: 170px;
   text-decoration: none;
 }
 .novidades{
-  background-color: #F5DCDC;
+  float: left;
+  background: linear-gradient(#F5DCDC, #BEBEF4);
 }
 .mais-vendidos{
-  background-color: #DCDCF5;
-}
+  float: right;
+  background: linear-gradient(#DCDCF5, #F4BEBE);}
 footer {
   background-image: url(../img/fundo-rodape.png);
   clear: both;
   padding: 20px 0;
+
 }
 footer .container{
   position: relative;
+  margin: auto;
 }
 .social{
   position:absolute;
